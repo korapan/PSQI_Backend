@@ -43,7 +43,7 @@ def receive_data():
     data = request.json  # ดึงข้อมูล JSON ที่ส่งมาจาก Postman
     print(data)  # แสดงข้อมูลใน console เพื่อตรวจสอบ
 
-# เข้าถึงข้อมูลใน data
+# เข้าถึงข้อมูลใน datas
     ID = data.get('ID')
     sex = data.get('sex')
     ofAge = data.get('ofAge')
